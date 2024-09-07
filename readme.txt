@@ -16,37 +16,26 @@ Installation
 Clone the repository:
 bash
 Copy code
-git clone https://github.com/yourusername/investment-tracker-bot.git
-cd investment-tracker-bot
+git clone https://github.com/assafbashiri/whereIsMyMoney.git
+cd whereIsMyMoney
 Install dependencies:
 bash
 Copy code
-pip install -r requirements.txt
-Create a .env file in the root directory and add your Telegram bot token:
+npm install
 bash
 Copy code
 BOT_TOKEN=your-telegram-bot-token
 Run the bot:
 bash
 Copy code
-python bot.py
+node bot.py
 Usage
 
 Once the bot is running, use the following commands to manage your investments:
 
 /start: Initialize the bot and start managing your portfolios.
-/add_investment [portfolio_name] [investment_type] [amount] [currency]: Add a new investment to a portfolio.
-/view_portfolio [portfolio_name]: View all investments in a specific portfolio.
-/total: Get the total value of all your investments across all portfolios.
+
 Example usage:
-
-bash
-Copy code
-/add_investment "Retirement" "Stock" 5000 ILS
-/view_portfolio "Retirement"
-/total
-Future Enhancements
-
 Support for more currencies.
 Automated market price updates for stocks and crypto.
 Graphical reports of portfolio performance over time.
