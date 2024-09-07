@@ -11,6 +11,10 @@ Portfolio Management: Organize your investments into multiple portfolios.
 Multi-Currency Support: Enter investments in Israeli Shekel (ILS), US Dollar (USD), or Euro (EUR).
 Total Asset Calculation: Get a breakdown of your assets and their total value at any time.
 User-Friendly Commands: Use simple Telegram commands to interact with your portfolio.
+
+The bot is deployed to Heroku Dyno.
+search in telegram for: @AssafBashiriBot
+
 Installation
 
 Clone the repository:
